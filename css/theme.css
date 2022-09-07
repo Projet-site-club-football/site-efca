@@ -10151,10 +10151,11 @@ q {
   transition: 400ms all;
   -webkit-transition: 400ms all;
 }
+/* 
 .tm-logo:hover > img {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-}
+} */
 .tm-logo span {
   padding-left: 17px;
   display: inline-block;
@@ -10176,9 +10177,9 @@ q {
 .tm-logo:hover {
   text-decoration: none;
 }
-.tm-logo:hover span {
+/* .tm-logo:hover span {
   color: #fff;
-}
+} */
 .tm-logo:hover span em {
   color: #343025;
   font-style: normal;
@@ -11584,6 +11585,7 @@ q {
 .footer-logo a span {
   color: #ffc722;
 }
+/*
 .footer-logo a:hover span {
   color: #fff;
 }
@@ -11597,7 +11599,7 @@ q {
 .footer-logo a:hover img {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-}
+} */
 .footer-about-text {
   padding-bottom: 20px;
   font-size: 14px;
