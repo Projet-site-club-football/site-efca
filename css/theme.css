@@ -8197,8 +8197,8 @@ a.uk-thumbnail:focus {
 .uk-position-cover {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 20px;
+  left: 30px;
   right: 0;
 }
 /*
@@ -13167,6 +13167,7 @@ q {
   position: relative;
   overflow: hidden;
 }
+/*
 .gallery-album:before {
   content: '';
   width: 33px;
@@ -13182,6 +13183,8 @@ q {
   transition-delay: 0.2s;
   z-index: 3;
 }
+*/
+
 .gallery-album a {
   display: none;
 }
@@ -13189,6 +13192,7 @@ q {
   display: block !important;
   position: relative;
 }
+/*
 .gallery-album a:after {
   content: '';
   width: 100%;
@@ -13204,15 +13208,21 @@ q {
   transition: cubic-bezier(0.22, 0.61, 0.36, 1) all 600ms;
   -webkit-transition: cubic-bezier(0.22, 0.61, 0.36, 1) all 600ms;
 }
+*/
+
 .gallery-album:hover a:after {
   left: 45%;
 }
 .gallery-album:hover:before {
   top: 30px;
 }
+
+
 .gallery-album:hover .titles {
   bottom: 28px;
 }
+
+
 .gallery-album .titles {
   position: absolute;
   text-align: right;
@@ -13221,6 +13231,7 @@ q {
   transition: cubic-bezier(0.22, 0.61, 0.36, 1) all 600ms;
   -webkit-transition: cubic-bezier(0.22, 0.61, 0.36, 1) all 600ms;
 }
+
 .gallery-album .title {
   font-size: 20px;
   text-transform: uppercase;
@@ -13960,6 +13971,7 @@ q {
   color: #a6a6a6;
   font-size: 15px;
 }
+/*
 .about-team-page-top-wrap .top-banner:before {
   content: '\201c';
   position: absolute;
@@ -13980,16 +13992,18 @@ q {
   font-weight: bold;
   font-family: 'Work Sans';
 }
+*/
+
 .about-team-page-top-wrap .top-banner .inner {
-  text-align: center;
-  font-size: 32px;
+  font-size: 30px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 300;
+  font-weight: 800;
   z-index: 2;
   flex-direction: column;
   line-height: 45px;
 }
+/*
 .about-team-page-top-wrap .top-banner .inner:before {
   content: '';
   border: 1px solid #ffc722;
@@ -14000,6 +14014,7 @@ q {
   left: 30px;
   z-index: -1;
 }
+*/
 .about-team-page-top-wrap .top-banner .name {
   padding-top: 30px;
   font-size: 18px;
@@ -14009,6 +14024,7 @@ q {
   text-transform: none;
   position: relative;
 }
+/*
 .about-team-page-top-wrap .top-banner .name:before {
   content: '';
   opacity: 0.5;
@@ -14019,7 +14035,8 @@ q {
   background: #ffc722;
   top: 12px;
   left: 50%;
-}
+}*/
+
 .our-awards-wrap {
   padding: 90px 0 90px 0;
   background: #f2f2f2;
@@ -15998,3 +16015,5 @@ table {
     background: url("../images/other-players-wrap-bg.jpg") 50% 100% no-repeat;
     background-size: 100% 525px;
 }
+/****** DEBUT DE MON CODE CSS DE LA PAGE CLUB ****************/
+
