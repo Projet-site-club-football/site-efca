@@ -16017,3 +16017,16 @@ table {
 }
 /****** DEBUT DE MON CODE CSS DE LA PAGE CLUB ****************/
 
+.taill p{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.taill li {
+  list-style-type: disc;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
