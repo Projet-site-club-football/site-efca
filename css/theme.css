@@ -16030,3 +16030,18 @@ table {
   line-height: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.name h3 {
+  text-align: center;
+}
+
+.name h3 p {
+  font-weight: bold;
+}
+
+.sous-list li
+{
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
