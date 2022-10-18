@@ -15902,6 +15902,12 @@ ul.uk-switcher {
   .va-latest-middle .table {
     width: 180px;
   }
+  .va-promo-text h3 {
+    font-size: 2.5em;
+  }
+  .va-about-text p {
+    font-size: 0.8em;
+  }
   .acymailing_module_form .acymailing_introtext {
     width: 100%;
   }
